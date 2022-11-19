@@ -1,11 +1,11 @@
-@mixin df{
+@mixin df {
   display: flex;
   justify-content: space-between;
   align-content: center;
   padding: 20px 0;
 }
 
-@mixin href{
+@mixin href {
   font-weight: 600;
   font-size: 13px;
   line-height: 150%;
@@ -15,7 +15,7 @@
   color: #343434;
 }
 
-@mixin select{
+@mixin select {
   font-weight: 400;
   font-size: 17px;
   line-height: 185.5%;
@@ -26,7 +26,7 @@
   outline: none;
 }
 
-@mixin option{
+@mixin option {
   font-weight: 400;
   font-size: 17px;
   line-height: 185.5%;
