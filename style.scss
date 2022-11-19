@@ -1,8 +1,27 @@
-*{
-  margin: 0;
-  padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "reset";
+@import "varables";
+@import "mixin";
 
-a{
-  text-decoration: none;
+
+#header {
+  .header {
+    @include df;
+    animation: animate 2s ease-in-out;
+
+    @keyframes animate {
+      0%{
+        transform: translateY(-1000px);
+      }
+    }
+    a{
+      @include href;
+    }
+    select{
+      @include select;
+    }
+    option{
+      @include option;
+    }
+  }
 }
